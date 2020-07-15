@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Barcade Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Barcade Regular'), url('barcade.woff') format('woff');
+}
