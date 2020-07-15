@@ -28,6 +28,12 @@
             background: url(sfondo_sabbia.jpg);
         }
 
+        .page-footer {
+            width: 100%;
+            height: 20 pv;
+            background: #000000;
+        }
+
     </style>
 
 
@@ -37,8 +43,10 @@
 
 <script>
     var audio1 = new Audio("CrabRave.mp3");
-    Audio.oncanplaythrough = function(){}
-    Audio.onended = function(){}
+    Audio.oncanplaythrough = function () {
+    }
+    Audio.onended = function () {
+    }
 </script>
 
 <div class="banner-area">
@@ -46,25 +54,52 @@
         <div class="content">
             <br><br><br><br><br><br>
             <div class="text-center">
-                <h1> <strong> CRAB RAVE BUTTON!!! </strong> </h1>
+                <h1><strong> CRAB RAVE BUTTON!!! </strong></h1>
 
-                <br><br><br><br>
-                <input type="image"     id="myimage"style="height:400px;width:400px;"src="crab.png"
+                <br><br><br>
+                <input type="image" id="myimage" style="height:400px;width:400px;" src="crab.png"
                        onclick="audio1.play()">
 
                 <br><br><br><br>
 
                 <h3>Press the button to <strong>PARTYYYY!</strong></h3>
 
+                <div class="justify-content-center">
+                    Credits for Song: <a href="https://www.youtube.com/watch?v=LDU_Txk06tM">Noisestorm - Crab
+                    Rave</a>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-
-
-
 </body>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-sm-6">
+                <div class="text-white">
+                    <p><strong> Michelangelo Amoruso Manzari 2020. </strong></p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="text-right">
+                    <div class="text-white">
+                        <p><strong>AUGURI JACK!!!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </html>
