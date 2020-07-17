@@ -49,24 +49,19 @@
         }
 
         .button {
-            background: : url(crab.png);
-            padding: 15px 25px;
+            background: url(crab.png);
+            background-position: center;
             font-size: 24px;
             text-align: center;
             cursor: pointer;
             outline: none;
             color: #fff;
-            background-color: #4CAF50;
+            background-color: #80;
             border: none;
             border-radius: 15px;
-            box-shadow: 0 9px #999;
         }
 
-        .button:hover {background-color: #3e8e41}
-
         .button:active {
-            background-color: #3e8e41;
-            box-shadow: 0 5px #666;
             transform: translateY(4px);
 
         }
@@ -94,10 +89,18 @@
 
                 <br><br><br>
 
-                <input type="image" id="myimage" style="height:400px;width:400px;" src="crab.png"
-                       onclick="audio1.play()">
+                <button class="button" type="image" id="myimage" style="height:513px;width:513px;" src="crab.png"
+                        onclick="audio1.play()"
+                </button>
 
                 <br><br><br><br>
+
+
+            </div>
+
+            <br><br>
+
+            <div class="text-center">
 
                 <h3>Press the button to <strong>PARTYYYY!</strong></h3>
 
@@ -105,9 +108,8 @@
                     Credits for Song: <a href="https://www.youtube.com/watch?v=LDU_Txk06tM">Noisestorm - Crab
                     Rave</a>
                 </div>
-
-                <button class="button">Click Me</button>
             </div>
+
         </div>
     </div>
 </div>
