@@ -3,23 +3,12 @@
 
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172840904-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'UA-172840904-1');
-    </script>
-
     <meta charset="UTF-8">
     <title>RaveButton</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="style">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -30,10 +19,6 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Roboto Light", sans-serif;
         }
 
         .banner-area {
@@ -65,6 +50,11 @@
             transform: translateY(4px);
 
         }
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+        }
+
     </style>
 
 
@@ -89,9 +79,18 @@
 
                 <br><br><br>
 
-                <button class="button" type="image" id="myimage" style="height:513px;width:513px;" src="crab.png"
-                        onclick="audio1.play()"
-                </button>
+                <div class="row">
+
+
+                    <div class="col-sm-12">
+                        <button class="button" type="image" id="myimage" style="height:513px;width:513px;"
+                                src="crab.png"
+                                onclick="audio1.play()"
+                        </button>
+                    </div>
+
+
+                </div>
 
                 <br><br><br><br>
 
